@@ -23,7 +23,7 @@ const registerProduct = async (req, res) => {
 
   const result = await product.save();
   if (!result)
-    return res.status(401).send("an error occurred while registering");
+    return res.status(401).send("failed to register product");
   return res.status(200).send({ product });
 };
 

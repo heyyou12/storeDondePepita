@@ -5,7 +5,7 @@ const storeSchema = new mongoose.Schema({
   address: String,
   city: String,
   date: { type: Date, default: Date.now },
-  status: Boolean,
+  dbStatus: Boolean,
 });
 
 const store = mongoose.model("store", storeSchema);
