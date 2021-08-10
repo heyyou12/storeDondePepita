@@ -11,7 +11,7 @@ const registerStore = async (req, res) => {
 
         name: req.body.name,
         address: req.body.address,
-        city: req.body.city,
+        city:req.body.city,
         dbStatus: true,
 
     })
@@ -19,10 +19,6 @@ const registerStore = async (req, res) => {
     const result = await store.save();
     if(!result) return res.status(401).send("failed to register store");
     return res.status(200).send({store});
-
-
-   
-
 }
 
 const listStore = async (req,res) => {
@@ -33,4 +29,4 @@ const listStore = async (req,res) => {
 
 }
 
-module.exports = {registerStore,listStore};
+module.exports = {registerStore, listStore};
