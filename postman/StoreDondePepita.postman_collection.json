@@ -1,0 +1,412 @@
+{
+	"info": {
+		"_postman_id": "280052c4-b0cb-4eb0-bc90-31b1a852181f",
+		"name": "StoreDondePepita",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TEST STORE",
+			"item": [
+				{
+					"name": "http://localhost:3001/api/store/registerStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"almacen5\",\r\n    \"address\": \"norte\",\r\n    \"city\":\"Cordoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/store/registerStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"registerStore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/store/listStore",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/api/store/listStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"listStore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/store/registerStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"almacen1\",\r\n    \"address\": \"occidente\",\r\n    \"city\":\"Armenia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/store/registerStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"registerStore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/store/registerStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"almacen2\",\r\n    \"address\": \"sur\",\r\n    \"city\":\"Montenegro\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/store/registerStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"registerStore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/store/registerStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"almacen3\",\r\n    \"address\": \"centro\",\r\n    \"city\":\"Salento\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/store/registerStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"registerStore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/store/registerStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"almacen4\",\r\n    \"address\": \"norte\",\r\n    \"city\":\"Filandia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/store/registerStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"registerStore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/store/registerStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"almacen5\",\r\n    \"address\": \"norte\",\r\n    \"city\":\"Cordoba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/store/registerStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"registerStore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/product/registerProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"aceite\",\r\n    \"price\": \"3500\",\r\n    \"code\": \"12345\",\r\n    \"description\": \"producto cocina\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/product/registerProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"product",
+								"registerProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/product/registerProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"arroz\",\r\n    \"price\": \"1000\",\r\n    \"code\": \"123477\",\r\n    \"description\": \"producto cocina\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/product/registerProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"product",
+								"registerProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/product/registerProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"cheetos\",\r\n    \"price\": \"1500\",\r\n    \"code\": \"10248\",\r\n    \"description\": \"producto dulceria\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/product/registerProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"product",
+								"registerProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/product/registerProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"queso\",\r\n    \"price\": \"6500\",\r\n    \"code\": \"18845\",\r\n    \"description\": \"producto cocina\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/product/registerProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"product",
+								"registerProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/product/listProduct",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/api/product/listProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"product",
+								"listProduct"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TEST PRODUCT",
+			"item": [
+				{
+					"name": "http://localhost:3001/api/store/registerStore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"jabon\",\r\n    \"price\": \"8000\",\r\n    \"code\": \"9657\",\r\n    \"description\": \"producto aseo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/api/product/registerProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"product",
+								"registerProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3001/api/store/listStore",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/api/store/listStore",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"store",
+								"listStore"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
