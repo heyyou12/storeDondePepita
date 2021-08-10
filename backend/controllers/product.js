@@ -17,9 +17,9 @@ const registerProduct = async (req, res) => {
     name: req.body.name,
     price: req.body.price,
     code: req.body.code,
-    description: req.body.description.description,
+    description: req.body.description,
     dbStatus: true,
-  });
+  })
 
   const result = await product.save();
   if (!result)

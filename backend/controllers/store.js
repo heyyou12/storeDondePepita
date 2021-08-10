@@ -11,7 +11,7 @@ const registerStore = async (req, res) => {
 
         name: req.body.name,
         address: req.body.address,
-        city:req.body.city,
+        city: req.body.city,
         dbStatus: true,
 
     })
@@ -33,4 +33,4 @@ const listStore = async (req,res) => {
 
 }
 
-module.exports = {registerStore, listStore};
+module.exports = {registerStore,listStore};
